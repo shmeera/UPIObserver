@@ -53,7 +53,7 @@ The code workflow is designed around the Observer design pattern, which allows o
 This design allows the application to send a confirmation message containing the transaction details in a state-specific format to each state when a UPI transaction message is received in real time. Each state's confirmation message can be in a different format, but the sending mechanism is the same.
 
 MessageReceived
-
+UPI (Subject)
 transactionId
 transactionStaus (FAIL, SUCCESS)
 
